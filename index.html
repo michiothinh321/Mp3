@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>Music Player Web App</title>
+</head>
+<body>
+    <div class="music">
+        <div class="music_header">
+            <span>Next--</span>
+            <span class="nameSong"> Rockstar</span>
+        </div>
+        <div class="music_title">
+            <img src="./img/mck.jpg" alt="">
+            <h3 class="music_name">Music</h3>
+            <input type="range" name="range" id="range" class="range">
+        </div>
+        <audio src="./music/TaiViSao-MCK-7963973.mp3" class="song"></audio>
+        <div class="timer">
+            <div class="duration">2:10</div>
+            <div class="remaining">-3:10</div>
+        </div>
+        <div class="controls">
+            <i class="fa-solid fa-infinity infinity "></i>
+            <i class="fa-solid fa-backward backward"></i>
+            <div class="play">
+              <div class="player-inner">
+                <i class="fa-solid fa-play play_icon"></i>
+              </div>
+            </div>
+            <i class="fa-solid fa-forward forward"></i>
+            <i class="fa-solid fa-repeat repeat"></i>
+        </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    
+</body>
+</html>
